@@ -1,0 +1,148 @@
+.edit-btn{
+    background-color: #005791;
+    color: white;
+}
+.edit-btn:hover{
+    background-color: #024877;
+    color: white;
+}
+.card{
+    border: 2px solid #0099ff;
+}
+.check{
+    border: 2px solid red;
+}
+.container-fliud{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-image: linear-gradient(330deg,
+    rgb(0, 0, 255, 100), rgb(0, 247, 255,2),rgb(68, 204, 238));
+    
+}
+.head{
+    position: absolute;
+    top: 45px
+}
+.login-div{
+    height: 450px;
+    width: 350px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 255, 100);
+    border-left: 30px solid rgb(0, 0, 255, 100);
+}
+.btn-login{
+    background-image: linear-gradient(270deg,rgb(68, 204, 238),blue);
+    color: white;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+.btn-login:hover{
+  color: white;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+.signup{
+    color: blue ;
+    font-weight: bold;
+}
+
+#SignupDiv{
+    display: none;
+}
+
+.butt-logout{
+  background-image: linear-gradient(270deg,rgb(68, 204, 238),blue);
+  border: 1px solid blue;
+  color: white;
+  font-weight: bold;
+}
+.butt-logout:hover{
+  color: white;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+.dashboard{
+  height: 90vh;
+  width: 90vh;
+}
+.main{
+  display: block;
+}
+.blue{
+  color: blue;
+}
+.btn-add{
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  background-image:linear-gradient(270deg,rgb(68, 204, 238),blue);
+  border: 1px solid blue;
+}
+.btn-add:hover{
+  color: white;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+
+
+
+
+
+ /**
+ * Wowzors
+ * - Spiral flips and rotates
+ */
+@keyframes wowzors {
+
+    1% {
+      opacity: 0%;
+    }
+  
+    10% {
+      opacity: 100%;
+      transform: rotate(360deg) translateX(150px) translateY(400px) rotate(-360deg) rotateY(360deg);
+    }
+  
+    20% {
+      transform: rotate(720deg) translateX(150px) translateY(350px) rotate(-720deg) rotateY(720deg) ;
+    }
+  
+    30% {
+      transform: rotate(1080deg) translateX(150px) translateY(300px) rotate(-1080deg) rotateY(1080deg) ;
+    }
+  
+    40% {
+      transform: rotate(1440deg) translateX(150px) translateY(250px) rotate(-1440deg) rotateY(1440deg) ;
+    }
+  
+    50% {
+      transform: rotate(1800deg) translateX(150px) translateY(200px) rotate(-1800deg) rotateY(1800deg) ;
+    }
+  
+    60% {
+      transform: rotate(1440deg) translateX(150px) translateY(150px) rotate(-1440deg) rotateY(1440deg) ;
+    }
+  
+    70% {
+      transform: rotate(1080deg) translateX(150px) translateY(0px) rotate(1080deg) rotateX(180deg);
+    }
+  
+  
+  }
+  
+  .wowzors {
+    animation-timing-function: linear;
+    transform-origin: bottom center;
+    animation-name: wowzors;
+    animation-duration: 5s;
+  }
+
+
+
+
+  

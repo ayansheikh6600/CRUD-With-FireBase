@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- <div class="container">
+        <div>
+            <h2>LOGIN</h2>
+            <input placeholder="Enter Email" type="email" name="" id="Email"><br>
+            <input placeholder="Enter password" type="password" name="" id="Password"><br>
+            <button class="btn btn-success" id="LoginBtn">Login</button>
+        </div>
+        <div>
+            <h2>Signup</h2>
+            <input placeholder="Enter Email" type="email" name="" id="QEmail"><br>
+            <input placeholder="Enter password" type="password" name="" id="QPassword"><br>
+            <button class="btn btn-success" id="register" >Register</button>
+        </div>
+    </div> -->
+
+
+
+    <div class="container-fliud">
+        <h1 class="head">CRUD OPERATION</h1>
+        <div class="auth-div">
+                <div id="loginDiv" class="login-div">
+                    <h5 class="text-center">Login</h5>
+                    <label >Email:</label><br>
+                    <input class="form-control" type="email" id="Email" placeholder="Enter Email"><br>
+                    <label >Password:</label><br>
+                    <input class="form-control" type="password" id="Password" placeholder="Enter Password"><br>
+                    <Button id="LoginBtn" class="btn btn-login">LOGIN</Button>
+                    <p class="mt-2">Don't Have An Account?  <span class="signup">Signup</span></p>
+                </div>
+                <div id="SignupDiv" class="login-div  check">
+                    <h5 class="text-center">Signup</h5>
+                    <label >Email:</label><br>
+                    <input class="form-control" type="email" id="QEmail" placeholder="Enter Email"><br>
+                    <label >Password:</label><br>
+                    <input class="form-control" type="password" id="QPassword" placeholder="Enter Password"><br>
+                    <Button id="register" class="btn btn-login">Signup</Button>
+                    <p class="mt-2">Already Have An Account?  <span class="login signup">Login</span></p>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+    <script type="module" src="app.js" ></script>
+
+</html>
